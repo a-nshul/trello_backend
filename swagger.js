@@ -12,7 +12,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: 'https://trello-backend-seven.vercel.app', // Vercel URL
+                url: 'https://trello-backend-seven.vercel.app/', // Vercel URL
             },
         ],
         security: [
