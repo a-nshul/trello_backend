@@ -45,3 +45,4 @@ const server = app.listen(
   PORT,
   console.log(`Server running on PORT 3001...`.green.bold)
 );
+module.exports = server;
