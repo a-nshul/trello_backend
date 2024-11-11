@@ -12,10 +12,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: [
-    "http://localhost:3001", // Local development URL
-    "https://trello-backend-seven.vercel.app/"
-  ],
+  origin: "*", // Allow all origins
   credentials: true, // Allow credentials (cookies, authorization headers, etc.)
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   exposedHeaders: ["X-Auth-Token"], // Expose custom headers
