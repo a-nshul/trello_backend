@@ -41,8 +41,6 @@ app.use(errorHandler);
 // Start server
 const PORT = process.env.PORT || 3001;
 
-const server = app.listen(
-  PORT,
+const server =app.listen(PORT,()=>{
   console.log(`Server running on PORT 3001...`.green.bold)
-);
-module.exports = server;
+})
